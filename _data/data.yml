@@ -1,0 +1,288 @@
+sidebar:
+    about: True
+    education: True
+
+    name: Alexander Perlamutrov
+    tagline: Senior Software Engineer & Team Lead
+    avatar: profile.jpg
+
+    email: wreckah@ya.ru
+    linkedin: alexanderperlamutrov
+    github: wreckah
+    bitbucket: thasonic
+
+    languages:
+      - idiom: Russian
+        level: Native
+
+      - idiom: English
+        level: Upper Intermediate - B2
+
+    interests:
+      - item: Hacking <a href="#projects">side projects</a>
+        link: #projects
+
+      - item: Collecting vinyl records
+        link: https://www.discogs.com/user/thasonic
+
+      - item: Volleyball, basketball, hockey, table tennis, roller skating
+        link:
+
+career-profile:
+    title: Executive Summary
+    summary: |
+      I have extensive experience in the development of complex mobile and web applications
+      "from scratch", as well as in supporting and optimizing existing projects with large legacy
+      codebases. I can work at the office or remotely with equal efficiency.
+      I always strive to find elegant and scalable solutions for complex, messy problems.
+      I believe that my strong command of hard sciences (math and physics),
+      combined with a rock-solid work ethic and ~20 years of hands-on engineering experience
+      at both startups and large tech companies, make me a valuable asset for any high-impact
+      engineering team.
+
+education:
+    - degree: Engineer, Information Security
+      university: Novosibirsk State Technical University
+      GPA: 4.9 out of 5
+      time: 1999 - 2004
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+
+experiences:
+    - role: Backend/full stack developer, devops, team lead
+      time: Nov 2018 - Apr 2020
+      company: Sellerscale Inc, Palo Alto (remote)
+      details: |
+        In close cooperation with the founder I created the MVP of
+        a complex business intelligence <a href="https://sellerscale.com">tool</a> for Amazon
+        sellers in just a few months (Node.js + Vue.js). As the team grew in size,
+        I focused on the app's architecture, developed API backend (Node.js + PostgreSQL)
+        and automated deployment processes of all components (Gitlab CI + Ansible).
+        Created a robust system of syncing data from multiple Amazon APIs
+        and flexible financial report generation based on this data.
+        The high-performance architecture I designed and implemented was a key enabler of
+        the exceptional user experience our customers were able to enjoy.
+
+    - role: Backend/full stack developer, devops, team lead
+      time: Apr 2016 - Aug 2018
+      company: E-commerce startup, London (remote)
+      details: |
+        Together with an agile team of with frontend and iOS developers, I build a robust backend API
+        (Node.js, PostgreSQL, Elasticsearch) for the project's web and mobile apps, enabling our
+        product to go live in under five months. I wrote a background system for importing/syncing our product catalog with
+        Rakuten and Affiliate Window affiliate networks via API and Amazon.com/co.uk via web scraping.
+        Automated builds and deployment were my responsibility as well (Gitlab CI + Ansible).
+        To be able to handle a peak load (up to 100k RPS),
+        I made a caching system where Node.js backend wrote API responses to filesystem mounted
+        to the server's RAM and Nginx served them as static files.
+
+        Due to high staff turnover, I often I often had to support the team as a fullstack developer,
+        building and maintaining our websites and admin interface (Backbone, React.js).
+        I also recruited new engineers, onboarded them and helped them grow and acquire new skills over.
+
+    - role: Senior backend developer
+      time: May 2013 - Apr 2016
+      company: Mail.Ru, Moscow
+      details: |
+        Developed and supported public API for advertisers of the <a href="https://target.my.com">Target</a> advertising platform.
+        This platform enables ad placement on two of the largest Russian social networks
+        <a href="https://vk.com">Vkontakte</a> and <a href="https://ok.ru">Odnoklassniki</a>.
+        In addition to product features (e.g. implementation of new targeting systems),
+        I also designed API infrastructure: authentication and authorization, validation of API requests
+        and serialization of responses, throttling, logging, asynchronous and bulk requests handling,
+        automated API documentation generated directly from the code.
+        Regularly made presentations at conferences for partner developers who use our public API.
+        Instilled a culture of writing tests and created tools to make testing easier.
+
+    - role: Senior backend developer
+      time: May 2012 - Apr 2013
+      company: Ostrovok.Ru, Moscow
+      details: |
+        Participated in the development of API for <a href="https://ostrovok.ru">Ostrovok</a> web site which allows users to find,
+        check availability and book a hotel via Expedia API or our own inventory, developed by another team.
+        Modified the API to support mobile apps as clients and created a public API for affiliate partners.
+        Developed back office for affiliate partners with booking statistics reports,
+        API documentation generated automatically from the code and a builder of white-label sites.
+
+    - role: Backend/full stack developer, team lead
+      time: Sep 2007 - Apr 2012
+      company: Yandex, Moscow
+      details: |
+        Worked on intranet projects and services:
+          - <a href="https://wiki.yandex.ru/">Yandex.Wiki</a> forked from WackoWiki and
+          completely re-written in Python with many new features, such as spreadsheet,
+          diagrams formatting and search based on Yandex.Search engine.
+          - web interface for mailing lists with search features based on Yandex.Search engine.
+          - web interface for reserving meeting rooms with MS Exchange Server as the backend.
+          - common API service for all intranet services.
+          - set of Django/python libraries and bindings to C/C++ libraries of Yandex.
+
+        Managed a team of 4 developers who worked on Yandex.Wiki and a load testing tool called Yandex.Tank.
+
+    - role: Full stack developer
+      time: Sep 2006 - Aug 2007
+      company: Profy.com, Novosibirsk
+      details: |
+        Participated in the development of a SPA blog platform with a feed aggregator.
+
+    - role: Web developer, team lead
+      time: Feb 2004 - Aug 2006
+      company: Intera / Novotelecom.ru, Novosibirsk
+      details: |
+        Created and supported many websites for commercial clients based on our own CMS.
+        Created a platform for publishing newspapers and magazines to the Internet and two websites
+        based on it for "Vecherniy Novosibirsk" and "Kontinent Sibir" newspapers.
+        Developed an entertainment content project called <a href="http://www.cn.ru/">Electronic City</a>
+        for a local internet provider Novotelecom.
+        Managed the team of 5 developers and system administrator.
+
+    - role: Web developer
+      time: Aug 2003 - Feb 2004
+      company: Idxstream, Novosibirsk
+      details: |
+        Participated in the development of a CMS called Digi.Lite.
+        Afterwards it was sold to SWSoft and included to their commercial web hosting platform called Plesk.
+
+    - role: Web developer, system administrator
+      time: Aug 2002 - Aug 2003
+      company: Financial Information Service, Novosibirsk
+      details: |
+        Developed and supported financial web services <a href="https://fis.ru">fis.ru</a> and <a href="https://sibbanks.ru">sibbanks.ru<a/>.
+
+projects:
+    title: Projects
+    intro: >
+      I occasionally help my friends build various projects.
+      Mostly focusing on backend infrastructure and admin interfaces.
+    assignments:
+      - title: Mobile app for Moscow Amateur Volleyball League
+        # link: "#hook"
+        tagline: "Mobile app for players with a game schedule tool and team ratings."
+
+      - title: iLike
+        link: "http://www.hello.io/projects/#polytechilike"
+        tagline: >
+          An interactive system for museums and exhibitions which allows to "like" exhibits
+          in social networks via RFID bracelet.
+
+      - title: Share heat
+        link: "http://www.hello.io/projects/#heatshare"
+        tagline: >
+          A network of interactive devices installed in 10 Russian cities before
+          the 2014 Winter Olympics which allow to accumulate heat by running and
+          share it with a random person in the other city.
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python (Django, Flask, Werkzeug, Tornado, gevent, uwsgi, asyncio)
+        level: 90%
+
+      - name: Javascript & Node.js (Express, Koa, Fastify, Nest, Strapi, Moleculer)
+        level: 90%
+
+      - name: PHP (Symfony, Drupal, Magento, Grav)
+        level: 50%
+
+      - name: Golang
+        level: 10%
+
+      - name: Perl
+        level: 10%
+
+      - name: C/C++
+        level: 10%
+
+      - name: HTML
+        level: 80%
+
+      - name: CSS
+        level: 70%
+
+      - name: Bootstrap UI
+        level: 70%
+
+      - name: Semantic UI
+        level: 50%
+
+      - name: Vue.js
+        level: 60%
+
+      - name: React.js
+        level: 40%
+
+      - name: PostgreSQL (+ TimescaleDB)
+        level: 90%
+
+      - name: Memcached
+        level: 90%
+
+      - name: MySQL
+        level: 80%
+
+      - name: Redis
+        level: 70%
+
+      - name: Elasticsearch
+        level: 60%
+
+      - name: MongoDB
+        level: 50%
+
+      - name: InfluxDB
+        level: 40%
+
+      - name: Tarantool
+        level: 20%
+
+      - name: Graphite
+        level: 20%
+
+      - name: ClickHouse
+        level: 20%
+
+      - name: Nginx
+        level: 90%
+
+      - name: Envoy
+        level: 10%
+
+      - name: RabbitMQ
+        level: 50%
+
+      - name: Apache Kafka
+        level: 20%
+
+      - name: NATS
+        level: 10%
+
+      - name: Apache Hadoop
+        level: 10%
+
+      - name: Docker
+        level: 50%
+
+      - name: Ansible
+        level: 90%
+
+      - name: Gitlab CI
+        level: 80%
+
+      - name: Kubernetes
+        level: 10%
+
+      - name: REST API
+        level: 90%
+
+      - name: GraphQL
+        level: 20%
+
+      - name: JSON-RPC
+        level: 20%
+
+      - name: gRPC
+        level: 20%
+
+      - name: SOAP
+        level: 10%
