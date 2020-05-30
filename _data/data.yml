@@ -76,7 +76,7 @@ experiences:
         I made a caching system where Node.js backend wrote API responses to filesystem mounted
         to the server's RAM and Nginx served them as static files.
 
-        Due to high staff turnover, I often I often had to support the team as a fullstack developer,
+        Due to high staff turnover, I often had to support the team as a fullstack developer,
         building and maintaining our websites and admin interface (Backbone, React.js).
         I also recruited new engineers, onboarded them and helped them grow and acquire new skills over.
 
@@ -268,6 +268,9 @@ skills:
 
       - name: Gitlab CI
         level: 80%
+
+      - name: Jenkins
+        level: 30%
 
       - name: Kubernetes
         level: 10%
