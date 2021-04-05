@@ -2,7 +2,7 @@ sidebar:
     about: True
     education: True
 
-    name: Alexander Perlamutrov
+    name: Alexander Pokatilov
     tagline: Software Engineer
     avatar: profile.jpg
 
@@ -10,6 +10,7 @@ sidebar:
     linkedin: alexanderperlamutrov
     github: wreckah
     bitbucket: thasonic
+    telegram: backwardcompatilibty
 
     languages:
       - idiom: Russian
@@ -49,6 +50,18 @@ education:
       #   Describe your study here lorem ipsum dolor sit amet, consectetuer
 
 experiences:
+    - role: Senior backend developer, team lead
+      time: Jul 2020 - now
+      company: Uploadcare.com, Vancouver (remote)
+      details: |
+        I was hired as a senior backend engineer for the platform core team, but then lead a new
+        dashboard/billing team of two frontend and one backend engineer. My team built a new
+        SPA website with user's personal account area (dashboard) on React and REST API
+        (Django Rest framework) instead of an old one (classical website on Django).
+        Also I started to design and implement a new billing system which
+        should allow to create new products and bill for existent ones (traffic, storage, transformations, etc)
+        easily, flexibly manage pricing plans and discounts and be more transparent for customers.
+
     - role: Backend/full stack developer, devops, team lead
       time: Nov 2018 - Apr 2020
       company: Sellerscale Inc, Palo Alto (remote)
@@ -155,6 +168,22 @@ projects:
       I occasionally help my friends build various projects.
       Mostly focusing on backend infrastructure and admin interfaces.
     assignments:
+      - title: Chat for 10k online users and cooperative drawing tool
+        link: "https://test.thasonic.com/"
+        tagline: >
+          Chat with 10k simultanious users in global channel with additional channels for
+          separate locations on Node.js + uWebSockets.js + Redis. Cooperative drawing tool
+          with the same backend (new parts of the drawn image are sent as a binary data via
+          web sockets).
+
+      - title: The Soyuzmultpark multimedia park
+        link: "https://www.youtube.com/watch?v=xsbImf-oHwk"
+        tagline: >
+          Soyuzmultpark is the world's first phygital park dedicated to Soviet cartoons.
+          With the help of advanced interactive mechanics and technologies such as AR, XR, TOF, BLE,
+          motion capture and others, cult cartoons come to life and got a new life, becoming tangible,
+          while saving the original atmosphere. 
+
       - title: Mobile app for Moscow Amateur Volleyball League
         # link: "#hook"
         tagline: "Mobile app for players with a game schedule tool and team ratings."
@@ -225,12 +254,15 @@ skills:
         level: 70%
 
       - name: Elasticsearch
-        level: 60%
+        level: 50%
 
       - name: MongoDB
         level: 50%
 
       - name: InfluxDB
+        level: 40%
+
+      - name: Prometheus
         level: 40%
 
       - name: Tarantool
@@ -252,7 +284,7 @@ skills:
         level: 50%
 
       - name: Apache Kafka
-        level: 20%
+        level: 40%
 
       - name: NATS
         level: 10%
@@ -261,7 +293,7 @@ skills:
         level: 10%
 
       - name: Docker
-        level: 50%
+        level: 70%
 
       - name: Ansible
         level: 90%
@@ -269,7 +301,10 @@ skills:
       - name: Gitlab CI
         level: 80%
 
-      - name: Jenkins
+      - name: AWS (EC2, S3, SQS, ELB, RDS, SES, DynamoDb, Lambda)
+        level: 80%
+
+      - name: Google Cloud
         level: 30%
 
       - name: Kubernetes
@@ -288,4 +323,4 @@ skills:
         level: 20%
 
       - name: SOAP
-        level: 10%
+        level: 20%
